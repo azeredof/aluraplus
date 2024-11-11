@@ -112,12 +112,6 @@ body {
 .dispositivos__titulo {
     font-size: 48px;
     color: var(--branco-principal);
-    text-align: center;
-}
-
-.dispositivos__lista h3 {
-    font-size: 32px;
-    color: var(--branco-principal);
 }
 
 .lista__item {
@@ -125,8 +119,9 @@ body {
     color: var(--branco-principal);
 }
 
-.rodape__logo {
-    margin-bottom: 2em;
+.rodape {
+    text-align: center;
+    margin: 5em 3em;    
 }
 
 .rodape__lista {
@@ -148,13 +143,7 @@ body {
     font-size: 14px;
 }
 
-.rodape {
-    text-align: center;
-    margin: 4em 3em 0em 3em;
-    padding: 1em;
-    
-    
-}
+
 
 .lista__link a:hover {
     color: var(--botao-azul);
